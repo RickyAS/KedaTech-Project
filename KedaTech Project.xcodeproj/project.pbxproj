@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE0B8622A41B0B1004AE43D /* KedaTech_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0B8612A41B0B1004AE43D /* KedaTech_ProjectApp.swift */; };
+		2FE0B8642A41B0B1004AE43D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0B8632A41B0B1004AE43D /* HomeView.swift */; };
+		2FE0B8662A41B0B3004AE43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0B8652A41B0B3004AE43D /* Assets.xcassets */; };
+		2FE0B8692A41B0B3004AE43D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0B8682A41B0B3004AE43D /* Preview Assets.xcassets */; };
+		2FE0B8732A41B0B3004AE43D /* KedaTech_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0B8722A41B0B3004AE43D /* KedaTech_ProjectTests.swift */; };
+		2FE0B87D2A41B0B3004AE43D /* KedaTech_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0B87C2A41B0B3004AE43D /* KedaTech_ProjectUITests.swift */; };
+		2FE0B87F2A41B0B3004AE43D /* KedaTech_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0B87E2A41B0B3004AE43D /* KedaTech_ProjectUITestsLaunchTests.swift */; };
+		2FE0B88C2A41B7BA004AE43D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0B88B2A41B7BA004AE43D /* HomeViewModel.swift */; };
+		2FE0B88E2A41B810004AE43D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0B88D2A41B810004AE43D /* HomeModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FE0B86F2A41B0B3004AE43D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FE0B8562A41B0B1004AE43D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FE0B85D2A41B0B1004AE43D;
+			remoteInfo = "KedaTech Project";
+		};
+		2FE0B8792A41B0B3004AE43D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FE0B8562A41B0B1004AE43D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FE0B85D2A41B0B1004AE43D;
+			remoteInfo = "KedaTech Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FE0B85E2A41B0B1004AE43D /* KedaTech Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KedaTech Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE0B8612A41B0B1004AE43D /* KedaTech_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KedaTech_ProjectApp.swift; sourceTree = "<group>"; };
+		2FE0B8632A41B0B1004AE43D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2FE0B8652A41B0B3004AE43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FE0B8682A41B0B3004AE43D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FE0B86E2A41B0B3004AE43D /* KedaTech ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KedaTech ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE0B8722A41B0B3004AE43D /* KedaTech_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KedaTech_ProjectTests.swift; sourceTree = "<group>"; };
+		2FE0B8782A41B0B3004AE43D /* KedaTech ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KedaTech ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE0B87C2A41B0B3004AE43D /* KedaTech_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KedaTech_ProjectUITests.swift; sourceTree = "<group>"; };
+		2FE0B87E2A41B0B3004AE43D /* KedaTech_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KedaTech_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FE0B88B2A41B7BA004AE43D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2FE0B88D2A41B810004AE43D /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FE0B85B2A41B0B1004AE43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE0B86B2A41B0B3004AE43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE0B8752A41B0B3004AE43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE0B8552A41B0B1004AE43D = {
+			isa = PBXGroup;
+			children = (
+				2FE0B8602A41B0B1004AE43D /* KedaTech Project */,
+				2FE0B8712A41B0B3004AE43D /* KedaTech ProjectTests */,
+				2FE0B87B2A41B0B3004AE43D /* KedaTech ProjectUITests */,
+				2FE0B85F2A41B0B1004AE43D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FE0B85F2A41B0B1004AE43D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0B85E2A41B0B1004AE43D /* KedaTech Project.app */,
+				2FE0B86E2A41B0B3004AE43D /* KedaTech ProjectTests.xctest */,
+				2FE0B8782A41B0B3004AE43D /* KedaTech ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FE0B8602A41B0B1004AE43D /* KedaTech Project */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0B8612A41B0B1004AE43D /* KedaTech_ProjectApp.swift */,
+				2FE0B8632A41B0B1004AE43D /* HomeView.swift */,
+				2FE0B88B2A41B7BA004AE43D /* HomeViewModel.swift */,
+				2FE0B88D2A41B810004AE43D /* HomeModel.swift */,
+				2FE0B8652A41B0B3004AE43D /* Assets.xcassets */,
+				2FE0B8672A41B0B3004AE43D /* Preview Content */,
+			);
+			path = "KedaTech Project";
+			sourceTree = "<group>";
+		};
+		2FE0B8672A41B0B3004AE43D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0B8682A41B0B3004AE43D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FE0B8712A41B0B3004AE43D /* KedaTech ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0B8722A41B0B3004AE43D /* KedaTech_ProjectTests.swift */,
+			);
+			path = "KedaTech ProjectTests";
+			sourceTree = "<group>";
+		};
+		2FE0B87B2A41B0B3004AE43D /* KedaTech ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0B87C2A41B0B3004AE43D /* KedaTech_ProjectUITests.swift */,
+				2FE0B87E2A41B0B3004AE43D /* KedaTech_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "KedaTech ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE0B85D2A41B0B1004AE43D /* KedaTech Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE0B8822A41B0B3004AE43D /* Build configuration list for PBXNativeTarget "KedaTech Project" */;
+			buildPhases = (
+				2FE0B85A2A41B0B1004AE43D /* Sources */,
+				2FE0B85B2A41B0B1004AE43D /* Frameworks */,
+				2FE0B85C2A41B0B1004AE43D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KedaTech Project";
+			productName = "KedaTech Project";
+			productReference = 2FE0B85E2A41B0B1004AE43D /* KedaTech Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FE0B86D2A41B0B3004AE43D /* KedaTech ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE0B8852A41B0B3004AE43D /* Build configuration list for PBXNativeTarget "KedaTech ProjectTests" */;
+			buildPhases = (
+				2FE0B86A2A41B0B3004AE43D /* Sources */,
+				2FE0B86B2A41B0B3004AE43D /* Frameworks */,
+				2FE0B86C2A41B0B3004AE43D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FE0B8702A41B0B3004AE43D /* PBXTargetDependency */,
+			);
+			name = "KedaTech ProjectTests";
+			productName = "KedaTech ProjectTests";
+			productReference = 2FE0B86E2A41B0B3004AE43D /* KedaTech ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FE0B8772A41B0B3004AE43D /* KedaTech ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE0B8882A41B0B3004AE43D /* Build configuration list for PBXNativeTarget "KedaTech ProjectUITests" */;
+			buildPhases = (
+				2FE0B8742A41B0B3004AE43D /* Sources */,
+				2FE0B8752A41B0B3004AE43D /* Frameworks */,
+				2FE0B8762A41B0B3004AE43D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FE0B87A2A41B0B3004AE43D /* PBXTargetDependency */,
+			);
+			name = "KedaTech ProjectUITests";
+			productName = "KedaTech ProjectUITests";
+			productReference = 2FE0B8782A41B0B3004AE43D /* KedaTech ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FE0B8562A41B0B1004AE43D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2FE0B85D2A41B0B1004AE43D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2FE0B86D2A41B0B3004AE43D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2FE0B85D2A41B0B1004AE43D;
+					};
+					2FE0B8772A41B0B3004AE43D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2FE0B85D2A41B0B1004AE43D;
+					};
+				};
+			};
+			buildConfigurationList = 2FE0B8592A41B0B1004AE43D /* Build configuration list for PBXProject "KedaTech Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FE0B8552A41B0B1004AE43D;
+			productRefGroup = 2FE0B85F2A41B0B1004AE43D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE0B85D2A41B0B1004AE43D /* KedaTech Project */,
+				2FE0B86D2A41B0B3004AE43D /* KedaTech ProjectTests */,
+				2FE0B8772A41B0B3004AE43D /* KedaTech ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FE0B85C2A41B0B1004AE43D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0B8692A41B0B3004AE43D /* Preview Assets.xcassets in Resources */,
+				2FE0B8662A41B0B3004AE43D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE0B86C2A41B0B3004AE43D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE0B8762A41B0B3004AE43D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE0B85A2A41B0B1004AE43D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0B8642A41B0B1004AE43D /* HomeView.swift in Sources */,
+				2FE0B88E2A41B810004AE43D /* HomeModel.swift in Sources */,
+				2FE0B8622A41B0B1004AE43D /* KedaTech_ProjectApp.swift in Sources */,
+				2FE0B88C2A41B7BA004AE43D /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE0B86A2A41B0B3004AE43D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0B8732A41B0B3004AE43D /* KedaTech_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE0B8742A41B0B3004AE43D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0B87D2A41B0B3004AE43D /* KedaTech_ProjectUITests.swift in Sources */,
+				2FE0B87F2A41B0B3004AE43D /* KedaTech_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FE0B8702A41B0B3004AE43D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FE0B85D2A41B0B1004AE43D /* KedaTech Project */;
+			targetProxy = 2FE0B86F2A41B0B3004AE43D /* PBXContainerItemProxy */;
+		};
+		2FE0B87A2A41B0B3004AE43D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FE0B85D2A41B0B1004AE43D /* KedaTech Project */;
+			targetProxy = 2FE0B8792A41B0B3004AE43D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FE0B8802A41B0B3004AE43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FE0B8812A41B0B3004AE43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FE0B8832A41B0B3004AE43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KedaTech Project/Preview Content\"";
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waver.KedaTech-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FE0B8842A41B0B3004AE43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KedaTech Project/Preview Content\"";
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waver.KedaTech-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FE0B8862A41B0B3004AE43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waver.KedaTech-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KedaTech Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KedaTech Project";
+			};
+			name = Debug;
+		};
+		2FE0B8872A41B0B3004AE43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waver.KedaTech-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KedaTech Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KedaTech Project";
+			};
+			name = Release;
+		};
+		2FE0B8892A41B0B3004AE43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waver.KedaTech-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KedaTech Project";
+			};
+			name = Debug;
+		};
+		2FE0B88A2A41B0B3004AE43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR7MTTF8X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waver.KedaTech-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KedaTech Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE0B8592A41B0B1004AE43D /* Build configuration list for PBXProject "KedaTech Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE0B8802A41B0B3004AE43D /* Debug */,
+				2FE0B8812A41B0B3004AE43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE0B8822A41B0B3004AE43D /* Build configuration list for PBXNativeTarget "KedaTech Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE0B8832A41B0B3004AE43D /* Debug */,
+				2FE0B8842A41B0B3004AE43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE0B8852A41B0B3004AE43D /* Build configuration list for PBXNativeTarget "KedaTech ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE0B8862A41B0B3004AE43D /* Debug */,
+				2FE0B8872A41B0B3004AE43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE0B8882A41B0B3004AE43D /* Build configuration list for PBXNativeTarget "KedaTech ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE0B8892A41B0B3004AE43D /* Debug */,
+				2FE0B88A2A41B0B3004AE43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FE0B8562A41B0B1004AE43D /* Project object */;
+}
